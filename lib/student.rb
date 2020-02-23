@@ -41,6 +41,7 @@ end
      # binding.pry
     end
   end  
+<<<<<<< HEAD
 
  
 def self.first_X_students_in_grade_10(x)
@@ -70,6 +71,8 @@ def self.first_student_in_grade_10
  #binding.pry
     #end
 end
+=======
+>>>>>>> 4a52510e8551f3230a2a0a75775af93faf1a8784
 
   def self.find_by_name(name)
     # find the student in the database given a name
@@ -133,6 +136,7 @@ end
     DB[:conn].execute(sql)
              
     
+<<<<<<< HEAD
   end
   def self.all_students_in_grade_X(x)
     
@@ -144,6 +148,8 @@ end
     SQL
    DB[:conn].execute(sql,x).map do |row|
       self.new_from_db(row)
+=======
+>>>>>>> 4a52510e8551f3230a2a0a75775af93faf1a8784
   end
 end
 end
